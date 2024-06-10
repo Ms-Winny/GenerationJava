@@ -76,6 +76,7 @@ public class ColecaoExemplo {
 					if(estoque.contains(antigoProduto)) {
 						System.out.println("\nDigite o produto que irá entrar no lugar do produto "+antigoProduto);
 						novoProduto = ler.nextLine();
+						estoque.remove(antigoProduto);
 						estoque.add(novoProduto);
 						if(estoque.contains(novoProduto) && !estoque.contains(antigoProduto)) {
 							System.out.println("\nProduto atualizado com sucesso!");

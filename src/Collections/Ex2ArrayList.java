@@ -19,7 +19,7 @@ public class Ex2ArrayList {
 		numeroAleatorio = leia.nextInt();
 		
 		if(listaDeNumeros.contains(numeroAleatorio)) {
-			System.out.println("O número "+numeroAleatorio+" encontra-se na posição: "+listaDeNumeros.indexOf(numeroAleatorio));
+			System.out.println("O número "+numeroAleatorio+" se encontra na posição: "+listaDeNumeros.indexOf(numeroAleatorio));
 		} else {
 			System.out.println("O número "+numeroAleatorio+" não foi encontrado na lista!");
 		}

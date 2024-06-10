@@ -18,7 +18,7 @@ public class Ex1Set {
 			listaDeNumeros.add(numero);
 		}
 		
-		System.out.println("\nNúmeros dentro do set: ");
+		System.out.println("\nNúmeros dentro do set:");
 		Iterator<Integer> iNumeros = listaDeNumeros.iterator();
 		
 		while(iNumeros.hasNext()) {

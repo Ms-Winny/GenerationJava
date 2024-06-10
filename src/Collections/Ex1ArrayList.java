@@ -21,7 +21,7 @@ public class Ex1ArrayList {
 			System.out.print("| "+cor+" ");	
 		}	
 		System.out.print("|\n");
-		System.out.println("\n=============================================================");
+		System.out.println("\n==============================================================");
 		
 		System.out.println("\nLista das cores digitadas reordenadas em ordem crescente:\n");
 		Collections.sort(listaDeCores);

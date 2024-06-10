@@ -37,7 +37,7 @@ public class Colecao1 {
 		
 		Collections.sort(ListaDeInteiros); //Serve para reordenar os elementos em ordem crescente
 		
-		System.out.println("Lista depois de ordenada: ");
+		System.out.println("Lista depois de ordenada:");
 		System.out.println(ListaDeInteiros);
 		System.out.println(); //Esvaziar o cache
 		
